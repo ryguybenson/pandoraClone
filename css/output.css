@@ -54,7 +54,17 @@ body {
   width: 31%; }
 
 .station > img {
-  width: 204px;
-  height: 204px; }
+  width: 202.66px;
+  height: 202.66px; }
+
+.suggestions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65%; }
+
+.suggest > img {
+  width: 202.66px;
+  height: 202.66px; }
 
 /*# sourceMappingURL=output.css.map */
