@@ -4,26 +4,23 @@ html {
 body {
   width: 100%; }
 
-.container {
-  display: flex;
-  width: 95%;
-  height: 80px; }
-
 .topBar {
   display: flex;
+  width: 100%;
   flex-direction: row;
-  width: 100%; }
+  justify-content: space-between;
+  align-items: center;
+  align-content: center; }
 
 .topBarContents {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
   width: 20%; }
 
 .shuffle {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  width: 10%; }
+  justify-content: flex-end; }
 
 /*# sourceMappingURL=output.css.map */
