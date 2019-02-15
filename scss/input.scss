@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.container {
+  display: flex;
+  width: 95%;
+  height: 80px;
+}
+.topBar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.topBarContents {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 20%;
+}
+.shuffle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 10%;
+}
