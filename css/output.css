@@ -8,18 +8,35 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 95%;
-  margin-left: auto;
+  align-items: center;
+  width: 98%;
+  margin-left: 1%;
   margin-right: auto;
   position: fixed;
-  top: 0; }
+  top: 0;
+  background-color: white;
+  height: 4rem; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+#now:hover {
+  text-decoration: underline; }
+
+#my {
+  text-decoration: underline; }
 
 .topText {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
-  width: 15%; }
+  width: 15%;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5rem; }
 
 .search {
   display: flex;
