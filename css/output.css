@@ -4,6 +4,11 @@ html {
 body {
   width: 100%; }
 
+.container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto; }
+
 .topBar {
   display: flex;
   width: 100%;
@@ -17,10 +22,39 @@ body {
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  width: 20%; }
+  width: 7%; }
 
-.shuffle {
+.myStations {
   display: flex;
-  justify-content: flex-end; }
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.stations1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+
+.stations2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+
+.stations3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+
+.stations4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 31%; }
+
+.station > img {
+  width: 204px;
+  height: 204px; }
 
 /*# sourceMappingURL=output.css.map */
