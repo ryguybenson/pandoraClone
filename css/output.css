@@ -4,10 +4,40 @@ html {
 body {
   width: 100%; }
 
+.navBarTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: 0; }
+
+.topText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  width: 15%; }
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%; }
+
 .container {
   width: 95%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-top: 5%; }
 
 .topBar {
   display: flex;
@@ -66,5 +96,34 @@ body {
 .suggest > img {
   width: 202.66px;
   height: 202.66px; }
+
+.footer {
+  display: flex;
+  flex-direction: row; }
+
+.browse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.copyright {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
 
 /*# sourceMappingURL=output.css.map */
