@@ -104,6 +104,15 @@ a {
 .station>img {
   width: 202.66px;
   height: 202.66px;
+
+}
+.station {
+  font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
+.station>h4 {
+  margin-top: 4%;
+  margin-bottom: -5%;
 }
 .suggestions {
   display: flex;
@@ -115,6 +124,10 @@ a {
   width: 202.66px;
   height: 202.66px;
 }
+.suggest {
+  font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+}
 .footer {
   display:flex;
   flex-direction: row;
@@ -124,7 +137,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
@@ -138,6 +151,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 .copyright {
   width: 90%;
@@ -162,4 +176,15 @@ a {
 }
 .volume {
   margin-right: 2%;
+}
+button {
+  background-color:  #224099;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+}
+#genre {
+  border-radius: .2rem;
+  font-size: 1.0rem;
+  padding: 15px;
 }
