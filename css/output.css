@@ -70,7 +70,7 @@ a {
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  width: 7%; }
+  width: 9%; }
 
 .myStations {
   display: flex;
@@ -180,11 +180,24 @@ button {
   background-color: #224099;
   color: white;
   border: none;
-  border-radius: 2rem; }
+  border-radius: 2rem;
+  cursor: pointer; }
 
 #genre {
   border-radius: .2rem;
   font-size: 1.0rem;
   padding: 15px; }
+
+#az {
+  background-color: white;
+  color: #224099;
+  font-size: 15px; }
+
+#recent {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px; }
 
 /*# sourceMappingURL=output.css.map */
