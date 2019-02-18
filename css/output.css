@@ -51,14 +51,17 @@ a {
 .topText {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-content: center;
-  width: 15%;
+  width: 30%;
   color: rgba(0, 0, 0, 0.6);
   font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 1.5rem;
   padding-left: 1%; }
+
+h7 {
+  color: white; }
 
 .search {
   display: flex;
@@ -68,12 +71,12 @@ a {
 .profile {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  width: 15%; }
+  width: 30%; }
 
 .container {
-  width: 95%;
+  width: 98%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%; }
@@ -88,10 +91,10 @@ a {
 
 .topBarContents {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-content: center;
   align-items: center;
-  width: 9%; }
+  width: 30%; }
 
 .shuffle {
   color: #224099;
@@ -100,48 +103,23 @@ a {
 .myStations {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 1%; }
+
+.station {
+  font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  width: 16.6666%;
+  margin-bottom: 2%; }
 
 .station > h5 {
   color: rgba(0, 0, 0, 0.4); }
 
-.stations1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 2%; }
-
-.stations2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 2%; }
-
-.stations3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 2%; }
-
-.stations4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 31%;
-  margin-bottom: 2%; }
-
 .station > img {
   width: 80%;
-  height: 80%;
-  padding-left: 2%;
-  padding-right: 2%; }
-
-.station {
-  font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: 500; }
+  height: 80%; }
 
 .station > h4 {
   margin-top: 4%;
@@ -224,5 +202,12 @@ button {
   padding-right: 20px;
   padding-top: 4px;
   padding-bottom: 4px; }
+
+@media screen and (max-width: 1150px) {
+  .station {
+    width: 25%; } }
+@media screen and (max-width: 766px) {
+  .station {
+    width: 50%; } }
 
 /*# sourceMappingURL=output.css.map */
