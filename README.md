@@ -14,6 +14,9 @@ _This application is a clone of the Pandora my stations website page}_
 * _Open this application in your preferred text editor_
 * _Open the application in your preferred web browser_
 
+##Screenshots
+_
+
 
 ## Known Bugs
 

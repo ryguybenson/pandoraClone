@@ -17,6 +17,27 @@ body {
   background-color: white;
   height: 4rem;
 }
+input {
+  font-size: 1.5rem;
+  font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: rgba(0,0,0,.8);
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  transform: translateZ(0);
+}
+#r {
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,.2);
+  height: 2.5rem;
+  width: 2.5rem;
+}
+#upgrade {
+  border-radius: .2rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -72,39 +93,53 @@ a {
   align-items: center;
   width: 9%;
 }
+
+.shuffle {
+  color: #224099;
+  font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 .myStations {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.station>h5 {
+  color: rgba(0,0,0,.4)
 }
 .stations1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 2%;
 }
 .stations2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 2%;
 }
 .stations3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 2%;
 }
 .stations4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 31%;
+  margin-bottom: 2%;
 }
 .station>img {
-  width: 202.66px;
-  height: 202.66px;
-
+  width:80%;
+  height:80%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 .station {
   font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -114,20 +149,20 @@ a {
   margin-top: 4%;
   margin-bottom: -5%;
 }
-.suggestions {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 65%;
-}
-.suggest>img {
-  width: 202.66px;
-  height: 202.66px;
-}
-.suggest {
-  font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: 500;
-}
+// .suggestions {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//   width: 65%;
+// }
+// .suggest>img {
+//   width: 202.66px;
+//   height: 202.66px;
+// }
+// .suggest {
+//   font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+//   font-weight: 500;
+// }
 .footer {
   display:flex;
   flex-direction: row;
@@ -141,6 +176,8 @@ a {
   width: 30%;
   margin-left: auto;
   margin-right: auto;
+  color: rbga(0,0,0,.8);
+
 }
 .footerContent{
   display: flex;
@@ -152,6 +189,8 @@ a {
   margin-right: auto;
   text-align: center;
   font-family: Avenir Next,Avenir,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: rgba(0,0,0,.6);
+  line-height: 1.2rem;
 }
 .copyright {
   width: 90%;
@@ -159,6 +198,8 @@ a {
   margin-right: auto;
   text-align: center;
   margin-bottom: 7%;
+  font-size: 1rem;
+  color: rgba(0,0,0,.4);
 }
 .bottomBar {
   display: flex;
